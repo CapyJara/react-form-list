@@ -11,16 +11,17 @@ state = {
   color: '#000000',
 };
 
+handleSubmit = event => {
+  event.preventDefault();
+  const { name, color } = this.state;
+  
+  this.props.addColor({ name, color });
+}
+
 handleChange = ({ target }) => {
   this.setState({ [target.name]: target.value });
 }
 
-handleSubmit = event => {
-  event.preventDefault();
-  const { name, color } = this.state;
-
-  this.props.addColor({ name, color });
-}
 render() {
   const { name, color } = this.state;
   return (
