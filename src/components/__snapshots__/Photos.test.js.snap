@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photos component renders a Photos 1`] = `
+Array [
+  <li
+    key="http://carrepairnearme.info/wp-content/uploads/2019/03/japanese-joinery-bed-woodworking-building-a-bed-for-my-boy-furniture-store-new-design-joinery-japanese-wood-joinery-bed.jpg"
+  >
+    <Photo
+      photo="http://carrepairnearme.info/wp-content/uploads/2019/03/japanese-joinery-bed-woodworking-building-a-bed-for-my-boy-furniture-store-new-design-joinery-japanese-wood-joinery-bed.jpg"
+    />
+  </li>,
+  <li
+    key="https://i.pinimg.com/originals/29/cd/f5/29cdf57a4f9526cdd04eedf435712819.jpg"
+  >
+    <Photo
+      photo="https://i.pinimg.com/originals/29/cd/f5/29cdf57a4f9526cdd04eedf435712819.jpg"
+    />
+  </li>,
+]
+`;

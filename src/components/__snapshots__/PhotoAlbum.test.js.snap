@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhotoAlbum component renders a PhotoAlbum 1`] = `
+<ul>
+  <Photos
+    photos={
+      Object {
+        "name": "Red",
+        "rgb": Object {
+          "blue": 0,
+          "green": 0,
+          "red": 255,
+        },
+      }
+    }
+  />
+</ul>
+`;
