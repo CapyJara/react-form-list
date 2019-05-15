@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 
 export default class TextFormatter extends PureComponent {
 state = {
-  text: '',
+  text: ''
 };
 
 handleChange = ({ target }) => {
@@ -14,7 +14,7 @@ render() {
    
   return (
     <>
-      <input type="text" onChange={this.handleChange}></input>
+      <input name="text" type="text" onChange={this.handleChange}></input>
       <p>{text}</p>
     </>
   );
