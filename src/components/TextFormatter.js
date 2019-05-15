@@ -2,7 +2,8 @@ import React, { PureComponent } from 'react';
 
 export default class TextFormatter extends PureComponent {
 state = {
-  text: ''
+  text: '',
+  color: 'black'
 };
 
 handleChange = ({ target }) => {
@@ -10,12 +11,13 @@ handleChange = ({ target }) => {
 }
 
 render() {
-  const { text } = this.state;
+  const { text, color } = this.state;
    
   return (
     <>
-      <input name="text" type="text" onChange={this.handleChange}></input>
-      <p>{text}</p>
+      <input name="text" type="text" onChange={this.handleChange} />
+      <input name="color" type="color" onChange={this.handleChange} />
+      <p style={{ color }}>{text}</p>
     </>
   );
 }
