@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Color({ name, hex, rgb }) {
-  
   return (
     <dl>
       <dt>Name</dt>
