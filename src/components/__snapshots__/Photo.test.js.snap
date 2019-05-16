@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Photo component renders a Photo 1`] = `
-<img
-  src="https://i.pinimg.com/originals/29/cd/f5/29cdf57a4f9526cdd04eedf435712819.jpg"
-/>
-`;
