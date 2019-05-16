@@ -1,16 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders a App 1`] = `
-<Fragment>
-  <TextFormatter
-    addColor={[Function]}
-  />
-  <Colors
-    colors={Array []}
-  />
-</Fragment>
-`;
-
 exports[`CreateColor component renders a CreateColor 1`] = `
 <form
   onSubmit={[Function]}
