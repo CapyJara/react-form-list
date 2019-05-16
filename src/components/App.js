@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Sidebar from './Sidebar';
+import Sidebar from './SideBar';
 // import styles from './App.css';
 
 export default function App() {
