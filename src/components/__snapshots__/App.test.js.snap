@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Color component renders a Color 1`] = `
+<Colors
+  colors={
+    Array [
+      Object {
+        "hex": "#DC143C",
+        "name": "crimson",
+        "rgb": Object {
+          "blue": 60,
+          "green": 20,
+          "red": 220,
+        },
+      },
+      Object {
+        "hex": "#FF1493",
+        "name": "deeppink",
+        "rgb": Object {
+          "blue": 147,
+          "green": 20,
+          "red": 255,
+        },
+      },
+      Object {
+        "hex": "#00FFFF",
+        "name": "cyan",
+        "rgb": Object {
+          "blue": 255,
+          "green": 255,
+          "red": 0,
+        },
+      },
+    ]
+  }
+/>
+`;
