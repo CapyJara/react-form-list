@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextFormatter component renders a TextFormatter 1`] = `
+<Fragment>
+  <input
+    name="text"
+    onChange={[Function]}
+    type="text"
+  />
+  <input
+    name="color"
+    onChange={[Function]}
+    type="color"
+  />
+  <p
+    style={
+      Object {
+        "color": "black",
+      }
+    }
+  />
+</Fragment>
+`;
