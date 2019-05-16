@@ -1,7 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component renders a App 1`] = `<TextFormatter />`;
-
 exports[`TextFormatter component renders a TextFormatter 1`] = `
 <Fragment>
   <input
